@@ -1,16 +1,16 @@
 # coding: utf-8
-from ToolLibrary.base import DynamicCore
-from ToolLibrary.keywords import (
+from rpa.base import DynamicCore
+from rpa.keywords import (
     CrawlerKeywords,
     FileKeywords,
     DataKeywords
 )
-from ToolLibrary.utils import LibraryListener
+from rpa.utils import LibraryListener
 
 __version__ = '0.0.1'
 
 
-class ToolLibrary(DynamicCore):
+class rpa(DynamicCore):
     """
     ToolLibrary is a tool library for company.
     """
@@ -31,5 +31,4 @@ class ToolLibrary(DynamicCore):
         try:
             return DynamicCore.run_keyword(self, name, args, kwargs)
         except Exception:
-            self.failure_occurred()
-            raise
+            raise Exception('no keyword')

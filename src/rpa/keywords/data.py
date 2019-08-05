@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from ToolLibrary.base import LibraryComponent, keyword
+from rpa.base import LibraryComponent, keyword
 
 
 class DataKeywords(LibraryComponent):

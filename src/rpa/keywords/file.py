@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import openpyxl
-from ToolLibrary.base import LibraryComponent, keyword
+from rpa.base import LibraryComponent, keyword
 
 
 class FileKeywords(LibraryComponent):

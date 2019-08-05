@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import requests
-from ToolLibrary.base import LibraryComponent, keyword
+from rpa.base import LibraryComponent, keyword
 from bs4 import BeautifulSoup
 
 
