@@ -3,8 +3,6 @@ requires = [
     'robotframework',
     'robotframework-ride',
     'robotframework-selenium2library',
-    'pywin32',
-    'openpyxl',
     'requests',
     'bs4',
 ]

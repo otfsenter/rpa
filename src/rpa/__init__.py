@@ -2,8 +2,7 @@
 from rpa.base import DynamicCore
 from rpa.keywords import (
     CrawlerKeywords,
-    FileKeywords,
-    DataKeywords
+    FileKeywords
 )
 from rpa.utils import LibraryListener
 
@@ -21,8 +20,7 @@ class rpa(DynamicCore):
         self._running_on_failure_keyword = False
         libraries = [
             CrawlerKeywords(self),
-            FileKeywords(self),
-            DataKeywords(self),
+            FileKeywords(self)
         ]
         DynamicCore.__init__(self, libraries)
         self.ROBOT_LIBRARY_LISTENER = LibraryListener()
