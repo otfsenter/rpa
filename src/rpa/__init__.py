@@ -1,4 +1,5 @@
 # coding: utf-8
+import robot
 from rpa.base import DynamicCore
 from rpa.keywords import (
     CrawlerKeywords,

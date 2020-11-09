@@ -10,5 +10,7 @@ class FileKeywords(LibraryComponent):
         content_list = []
         with open(path_file, encoding='utf-8') as f:
             for i in f:
-                content_list.append(i.strip())
+                raw = i.strip()
+                new_data = str(raw) + 'wuweiji'
+                content_list.append(new_data)
         return content_list
