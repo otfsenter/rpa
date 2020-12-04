@@ -1,4 +1,6 @@
-# RPA Library from SeleniumLibrary
+# RPA (Robotic Process Automation) Library from SeleniumLibrary
+
+
 
 
 ## src/rpa/keywords
