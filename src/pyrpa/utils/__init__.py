@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from .deprecated import Deprecated
 from .librarylistener import LibraryListener
 from .toolversion import TOOL_VERSION
 from .types import is_noney, is_falsy
