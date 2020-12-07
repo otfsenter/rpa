@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from rpa.base import LibraryComponent, keyword
+from pyrpa.base import LibraryComponent, keyword
 
 
 class FileKeywords(LibraryComponent):

@@ -1,7 +1,7 @@
 # coding: utf-8
 import os
 
-from rpa.utils import is_noney
+from pyrpa.utils import is_noney
 from .context import ContextAware
 from robot.api import logger
 from robot.libraries.BuiltIn import BuiltIn, RobotNotRunningError

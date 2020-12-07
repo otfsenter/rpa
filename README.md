@@ -1,4 +1,4 @@
-# RPA (Robotic Process Automation) Library from SeleniumLibrary
+# Some practical examples of RPA (Robotic Process Automation)
 
 
 

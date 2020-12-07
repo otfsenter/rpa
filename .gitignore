@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 *.pyd
+dist/
+build/
+src/pyrpa.egg-info
+src/pyrpa/t.py
