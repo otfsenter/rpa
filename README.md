@@ -1,7 +1,9 @@
 # Some practical examples of RPA (Robotic Process Automation)
 
 
+## TODO
 
+are base and utils directories useful?
 
 ## src/rpa/keywords
 
