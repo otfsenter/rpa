@@ -1,5 +1,7 @@
 # Some practical examples of RPA (Robotic Process Automation)
 
+the project address: [pyrpa](https://github.com/otfsenter/pyrpa)
+
 ## src/rpa/keywords
 
 * crawler.py
