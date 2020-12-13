@@ -1,19 +1,10 @@
 # Some practical examples of RPA (Robotic Process Automation)
 
-
-## TODO
-
-are base and utils directories useful?
-
 ## src/rpa/keywords
 
 * crawler.py
 
 some crawlers 
-
-* data.py
-
-deal with data
 
 * file
 

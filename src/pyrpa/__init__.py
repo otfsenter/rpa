@@ -4,7 +4,7 @@ import importlib
 import robot
 from pyrpa.base import DynamicCore
 from pyrpa.utils import LibraryListener
-from pyrpa.class_data import MODULE_CLASS_DICT, MODULE, KEYWORDS
+from pyrpa.constants import MODULE_CLASS_DICT, MODULE, KEYWORDS
 
 __version__ = '0.0.1'
 
