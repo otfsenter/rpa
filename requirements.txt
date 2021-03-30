@@ -8,7 +8,7 @@ jdcal==1.4.1
 numpy==1.19.4
 openpyxl==3.0.5
 Pillow==8.0.1
-Pygments==2.7.3
+Pygments==2.7.4
 Pypubsub==4.0.3
 requests==2.25.0
 robotframework==3.2.2
